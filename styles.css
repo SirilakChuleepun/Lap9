@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+/* User List & Detail */
+.user-list, .posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-card, .post {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.user-card:hover, .post:hover {
+    transform: scale(1.02);
+}
+
+.user-card a, .back-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.user-card a:hover, .back-button:hover {
+    background: #0056b3;
+}
+
+/* User Detail */
+.user-detail {
+    text-align: center;
+    padding: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.view-posts-btn {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-posts-btn:hover {
+    background: #218838;
+}
+
+/* Comments Section */
+.comment-btn {
+    background: #ffc107;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comment-btn:hover {
+    background: #e0a800;
+}
+
+.comments {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
