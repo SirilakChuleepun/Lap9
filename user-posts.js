@@ -41,7 +41,7 @@ async function fetchUserPosts() {
         });
     } catch (error) {
         console.error("Error fetching posts:", error);
-        postsList.innerHTML = "<p>โหลดข้อมูลผิดพลาด</p>"ว
+        postsList.innerHTML = "<p>โหลดข้อมูลผิดพลาด</p>"
         
     }
     
